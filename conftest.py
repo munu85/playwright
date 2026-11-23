@@ -1,6 +1,6 @@
 import pytest
 
-BASE_URL = "https://the-internet.herokuapp.com"
+BASE_URL = "https://devtuth.dolphin.com.np/dartachalani"
 
 @pytest.fixture(scope="session")
 def base_url():
