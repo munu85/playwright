@@ -12,6 +12,10 @@ def test_valid_login(login_page, page):
     ("wrong", "admin"),
     ("admin", "wrong"),
     ("wrong", "wrong"),
+    ("admin",""),
+    ("", "admin"),
+    ("", ""),
+    
 ])
 def test_invalid_login(login_page, page, user, pwd):
     login_page.login(user, pwd)
